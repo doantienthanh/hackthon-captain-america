@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cl1apb');
+  src:  url('fonts/icomoon.eot?cl1apb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cl1apb') format('truetype'),
+    url('fonts/icomoon.woff?cl1apb') format('woff'),
+    url('fonts/icomoon.svg?cl1apb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic-group-chat:before {
+  content: "\e93e";
+}
+.icon-ic-like-empty:before {
+  content: "\e904";
+}
+.icon-ic-notification:before {
+  content: "\e905";
+}
+.icon-ic-upload:before {
+  content: "\e912";
+}
+.icon-ic-check-tick:before {
+  content: "\e919";
+}
+.icon-ic-check-square:before {
+  content: "\e922";
+}
+.icon-ic-sent:before {
+  content: "\e936";
+}
+.icon-ic-facebook-f:before {
+  content: "\e937";
+}
+.icon-ic-map:before {
+  content: "\e938";
+}
+.icon-ic-angle-right-b:before {
+  content: "\e939";
+}
+.icon-ic-editne:before {
+  content: "\e93a";
+}
+.icon-ic-star:before {
+  content: "\e93b";
+}
+.icon-ic-key:before {
+  content: "\e93c";
+}
+.icon-ic-sort:before {
+  content: "\e93d";
+}
+.icon-ic-setting:before {
+  content: "\e900";
+}
+.icon-ic-play:before {
+  content: "\e901";
+}
+.icon-ic-edit:before {
+  content: "\e902";
+}
+.icon-ic-call:before {
+  content: "\e903";
+}
+.icon-ic-trash:before {
+  content: "\e906";
+}
+.icon-ic-add-photo-alternate:before {
+  content: "\e907";
+}
+.icon-ic-logout:before {
+  content: "\e908";
+}
+.icon-ic-camera-plus:before {
+  content: "\e909";
+}
+.icon-ic-website:before {
+  content: "\e90a";
+}
+.icon-ic-attach:before {
+  content: "\e90b";
+}
+.icon-ic-paper-alert:before {
+  content: "\e90c";
+}
+.icon-ic-camera:before {
+  content: "\e90d";
+}
+.icon-ic-share:before {
+  content: "\e90e";
+}
+.icon-ic-arrow-select-down:before {
+  content: "\e90f";
+}
+.icon-ic-eye-close:before {
+  content: "\e910";
+}
+.icon-ic-eye-open:before {
+  content: "\e911";
+}
+.icon-ic-email:before {
+  content: "\e913";
+}
+.icon-ic-search:before {
+  content: "\e914";
+}
+.icon-ic-close:before {
+  content: "\e915";
+}
+.icon-ic-arrow-left:before {
+  content: "\e916";
+}
+.icon-ic-plus:before {
+  content: "\e917";
+}
+.icon-ic-close-circle-solid:before {
+  content: "\e918";
+}
+.icon-ic-download:before {
+  content: "\e91a";
+}
+.icon-ic-idea-setting:before {
+  content: "\e91b";
+}
+.icon-ic-light-idea:before {
+  content: "\e91c";
+}
+.icon-ic-transfer-monetization-idea:before {
+  content: "\e91d";
+}
+.icon-ic-team-share-idea:before {
+  content: "\e91e";
+}
+.icon-ic-idea-settings:before {
+  content: "\e91f";
+}
+.icon-ic-head-idea-human:before {
+  content: "\e920";
+}
+.icon-ic-idea-message:before {
+  content: "\e921";
+}
+.icon-ic-like-solid:before {
+  content: "\e923";
+}
+.icon-ic-heart-favourite:before {
+  content: "\e924";
+}
+.icon-ic-heart-empty:before {
+  content: "\e925";
+}
+.icon-ic-more-setting:before {
+  content: "\e926";
+}
+.icon-ic-offer:before {
+  content: "\e927";
+}
+.icon-ic-profile-user-outline:before {
+  content: "\e928";
+}
+.icon-ic-profile-user-solid:before {
+  content: "\e929";
+}
+.icon-ic-chat-outline:before {
+  content: "\e92a";
+}
+.icon-ic-chat-solid:before {
+  content: "\e92b";
+}
+.icon-ic-home-outline:before {
+  content: "\e92c";
+}
+.icon-ic-home-solid:before {
+  content: "\e92d";
+}
+.icon-ic-conversation-chat:before {
+  content: "\e92e";
+}
+.icon-ic-notification-active:before {
+  content: "\e92f";
+}
+.icon-ic-profile-outline-1:before {
+  content: "\e930";
+}
+.icon-ic-profile-active-1:before {
+  content: "\e931";
+}
+.icon-ic-gender:before {
+  content: "\e932";
+}
+.icon-ic-country:before {
+  content: "\e933";
+}
+.icon-ic-homeline:before {
+  content: "\e934";
+}
+.icon-ic-home:before {
+  content: "\e935";
+}

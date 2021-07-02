@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "588770240311",
+    "project_id": "ontherise-c6b7d",
+    "storage_bucket": "ontherise-c6b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588770240311:android:f03708a40271cfbe249cb2",
+        "android_client_info": {
+          "package_name": "com.enouvo.ontherise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588770240311-j13kobtq5btnhbtf7e05kt451ua300st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enouvo.ontherise",
+            "certificate_hash": "d5245034105c82c12fa5254a726051a6ab22e5c7"
+          }
+        },
+        {
+          "client_id": "588770240311-t66motgjck3ftgm9q5n53mdqps03qk65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enouvo.ontherise",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "588770240311-en8clihq6lh693kf7talkjmfi340nmg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6jVIvBJ7J-c6l2VWpcpqo37KfaMXOkSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588770240311-en8clihq6lh693kf7talkjmfi340nmg6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588770240311-vbbfkusriroalht4nikc8q5vek72pa7u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.enouvo.ontherise"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

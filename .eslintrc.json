@@ -1,0 +1,138 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community"
+  ],
+  "plugins": [
+    "prettier",
+    "react",
+    "react-native",
+    "eslint-plugin-import"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "react-native/no-unused-styles": 2,
+    "react-native/no-color-literals": 0,
+    "react-native/no-raw-text": [
+      2,
+      {
+        "skip": [
+          "Text.Text"
+        ]
+      }
+    ],
+    "react-native/split-platform-components": 0,
+    "react/no-did-mount-set-state": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react/no-did-update-set-state": 0,
+    "import/no-unresolved": 2,
+    "no-unused-vars": 2
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ],
+        "paths": [
+          "src"
+        ]
+      },
+      "alias": {
+        "map": [
+          [
+            "components",
+            "./src/components"
+          ],
+          [
+            "components/*",
+            "./src/components/*"
+          ],
+          [
+            "screens",
+            "./src/screens"
+          ],
+          [
+            "screens/*",
+            "./src/screens/*"
+          ],
+          [
+            "navigation",
+            "./src/navigation"
+          ],
+          [
+            "navigation/*",
+            "./src/navigation/*"
+          ],
+          [
+            "themes",
+            "./src/themes"
+          ],
+          [
+            "themes/*",
+            "./src/themes/*"
+          ],
+          [
+            "utils",
+            "./src/utils"
+          ],
+          [
+            "utils/*",
+            "./src/utils/*"
+          ],
+          [
+            "features",
+            "./src/features"
+          ],
+          [
+            "features/*",
+            "./src/features/*"
+          ],
+          [
+            "assets",
+            "./src/assets"
+          ],
+          [
+            "assets/*",
+            "./src/assets/*"
+          ],
+          [
+            "api",
+            "./src/api"
+          ],
+          [
+            "api/*",
+            "./src/api/*"
+          ],
+          [
+            "i18n",
+            "./src/i18n"
+          ],
+          [
+            "i18n/*",
+            "./src/i18n/*"
+          ]
+        ],
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": [
+        "App/**/*.js"
+      ],
+      "rules": {}
+    }
+  ]
+}

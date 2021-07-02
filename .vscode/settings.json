@@ -1,0 +1,18 @@
+{
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "eslint.options": {
+    "configFile": "./.eslintrc.js"
+  },
+  "editor.tabSize": 2,
+  "files.autoSave": "off",
+  "window.zoomLevel": -1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true
+}
